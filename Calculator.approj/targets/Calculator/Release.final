@@ -1,0 +1,174 @@
+{
+    "assets": [
+        {
+            "asset": "Calculator/en.lproj/InfoPlist.strings", 
+            "target": "en.lproj/InfoPlist.strings"
+        }
+    ], 
+    "config": {
+        "APPLICATION_FULL_NAME": "Calculator", 
+        "APPLICATION_IDENTIFIER": "edu.txstate.ARProject.gma23.Calculator", 
+        "APPLICATION_NAME": "Calculator", 
+        "FEATURES": [
+            "opengles2", 
+            "portrait"
+        ], 
+        "ICU_CONFIG": "normal", 
+        "LONG_VERSION": "1.0", 
+        "SHORT_VERSION": "1.0", 
+        "TEMPLATE_VALUES": {
+            "EXECUTABLE_NAME": "Calculator", 
+            "PRODUCT_NAME": "Calculator"
+        }
+    }, 
+    "defines": {
+        "NS_BLOCK_ASSERTIONS": 1, 
+        "__IPHONE_OS_VERSION_MIN_REQUIRED": 70100
+    }, 
+    "deps": [
+        "UIKit", 
+        "CoreGraphics", 
+        "UIKit", 
+        "Foundation"
+    ], 
+    "flags": [
+        "-fobjc-arc", 
+        "-fasm-blocks", 
+        {
+            "flag": "-std=gnu99", 
+            "not_type": "c++"
+        }, 
+        {
+            "flag": "-fgnu-keywords", 
+            "not_type": "c++"
+        }, 
+        "-fno-asm", 
+        "-fpascal-strings", 
+        "-Wempty-body", 
+        "-Wshorten-64-to-32", 
+        "-Wno-deprecated-declarations", 
+        "-Wswitch", 
+        "-Wparentheses", 
+        "-Wformat", 
+        "-Wunused-function", 
+        "-Wunused-value", 
+        "-Wunused-variable", 
+        {
+            "flag": "-Winvalid-offsetof", 
+            "type": "c++"
+        }, 
+        {
+            "flag": "-Wprotocol", 
+            "type": "objc"
+        }, 
+        {
+            "flag": "-Wundeclared-selector", 
+            "type": "objc"
+        }
+    ], 
+    "header_paths": [
+        {
+            "header_path": "Calculator-generated-files.hmap", 
+            "hmap": {}, 
+            "type": "iquote"
+        }, 
+        {
+            "header_path": "Calculator-own-target-headers.hmap", 
+            "hmap": {}, 
+            "type": "I"
+        }, 
+        {
+            "header_path": "Calculator-all-target-headers.hmap", 
+            "hmap": {}, 
+            "type": "I"
+        }, 
+        {
+            "header_path": "Calculator-project-headers.hmap", 
+            "hmap": {
+                "Calculator-Prefix.pch": {
+                    "key": "Calculator-Prefix.pch", 
+                    "prefix": "Calculator/", 
+                    "suffix": "Calculator-Prefix.pch"
+                }, 
+                "CalculatorAppDelegate.h": {
+                    "key": "CalculatorAppDelegate.h", 
+                    "prefix": "Calculator/", 
+                    "suffix": "CalculatorAppDelegate.h"
+                }, 
+                "CalculatorViewController.h": {
+                    "key": "CalculatorViewController.h", 
+                    "prefix": "Calculator/", 
+                    "suffix": "CalculatorViewController.h"
+                }
+            }, 
+            "type": "iquote"
+        }, 
+        {
+            "header_path": "/var/folders/z6/wy5ylc4d6r19mtfkwh8n1h3w0000gq/T/tmplKw5Uf/BUILT_PRODUCTS_DIR/include", 
+            "type": "I"
+        }, 
+        {
+            "header_path": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include", 
+            "type": "I"
+        }, 
+        {
+            "header_path": "/var/folders/z6/wy5ylc4d6r19mtfkwh8n1h3w0000gq/T/tmplKw5Uf/DERIVED_FILE_DIR/armv7", 
+            "type": "I"
+        }, 
+        {
+            "header_path": "/var/folders/z6/wy5ylc4d6r19mtfkwh8n1h3w0000gq/T/tmplKw5Uf/DERIVED_FILE_DIR", 
+            "type": "I"
+        }
+    ], 
+    "infoplists": [
+        "./Calculator/Calculator-Info.plist"
+    ], 
+    "java_libs": [], 
+    "java_res_dirs": [], 
+    "java_sourcepaths": [], 
+    "java_sources": [], 
+    "libs": [], 
+    "link_flags": [], 
+    "modules": [], 
+    "pchs": [
+        "./Calculator/Calculator-Prefix.pch"
+    ], 
+    "sources": [
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "Calculator/CalculatorAppDelegate.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "Calculator/CalculatorViewController.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "Calculator/main.m"
+        }
+    ], 
+    "storyboards": [
+        {
+            "storyboard": "Calculator/Base.lproj/Main_iPad.storyboard", 
+            "target": null
+        }, 
+        {
+            "storyboard": "Calculator/Base.lproj/Main_iPhone.storyboard", 
+            "target": null
+        }
+    ], 
+    "type": "app", 
+    "version": "3", 
+    "xcdatamodels": [], 
+    "xcode_project": "Calculator.xcodeproj", 
+    "xibs": []
+}
